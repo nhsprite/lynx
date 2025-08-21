@@ -3,7 +3,7 @@ name: tasm_publish
 on:
   push:
     branches:
-      - develop
+      - p/nihao.royal/test-wasm
     paths:
       - 'oliver/lynx-tasm/package.json'
   workflow_dispatch:

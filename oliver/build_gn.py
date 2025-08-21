@@ -42,8 +42,6 @@ def gen_build_file(platform, arch, debug, root_path, type, sysroot):
       enable_inspector_test=true \
       build_lynx_lepus_node=true \
       node_headers_dst_dir=\\\"//oliver/lynx-tasm\\\" '
-    if platform == 'linux':
-      args += ' emsdk_dir=\\\"/root/emsdk\\\"'
   elif type == 'testing':
     args += ' build_lepus_compile=false \
       enable_air=false \
